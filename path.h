@@ -1,6 +1,6 @@
  Path.h
  *
- * Michelle Ferdinands
+ * Written by Michelle Ferdinands
  * Professor Norman
  * CS232
  * March 3, 2021
