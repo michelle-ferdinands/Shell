@@ -1,27 +1,24 @@
 //
-//  prompt.h
+//  prompt.cpp
 //  CS232 Command Shell
 //
 //  Created by Victor Norman on 1/20/15.
 //  Copyright (c) 2015 Victor Norman. All rights reserved.
 //
 
-#ifndef __CS232_Command_Shell__prompt__
-#define __CS232_Command_Shell__prompt__
-
-#include <iostream>
+#include <unistd.h>
+#include <stdlib.h>
 #include <string>
-using namespace std;
+#include "prompt.h"
 
-class Prompt
+Prompt::Prompt()
 {
-public:
-    Prompt();
-    string get() const { return cwd + " $ "; }
-    string getCwd() const { return cwd; }
-    void set();
-private:
-    string cwd;
-};
+    set();
+}
 
-#endif /* defined(__CS232_Command_Shell__prompt__) */
+void Prompt::set()
+{
+    char *tcwd = getcwd(NULL, 0);
+    cwd = string(tcwd);
+    free(tcwd);
+}
