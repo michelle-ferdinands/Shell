@@ -1,7 +1,7 @@
 //
 //  commandline.cpp
 //  CS232 Command Shell
-//  Michelle Ferdinands
+//  Written by Michelle Ferdinands
 //  Professor Norman
 //  CS 232 at Calvin
 //  April 14, 2021
