@@ -1,7 +1,7 @@
 /* shell.cpp
  *
  * March 3, 20201
- * Michelle Ferdinands
+ * Written by Michelle Ferdinands
  * Professor Norman
  * CS 232 at Calvin University
  */
