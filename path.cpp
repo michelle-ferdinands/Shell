@@ -1,6 +1,6 @@
 /*
  * path.cpp
- * Michelle Ferdinands
+ * Written by Michelle Ferdinands
  * CS 232
  * March 3, 2021
  */
